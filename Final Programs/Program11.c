@@ -15,14 +15,6 @@ struct Queue {
     struct Node* rear;
 };
 
-// Function prototypes
-struct Node* createNode(int data);
-struct Queue* createQueue();
-int isEmpty(struct Queue* queue);
-void enqueue(struct Queue* queue, int data);
-int dequeue(struct Queue* queue);
-int front(struct Queue* queue);
-void display(struct Queue* queue);
 
 // Function to create a new node
 struct Node* createNode(int data) {
